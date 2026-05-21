@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Morse Code Translator</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header>
+    <h1>Morse Code Translator</h1>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="pages/about.html">About</a></li>
+        <li><a href="pages/help.html">Help</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section id="translator">
+      <h2>Text ➝ Morse</h2>
+      <textarea id="textInput" placeholder="Enter text here..."></textarea>
+      <button id="translateBtn">Translate</button>
+      <button id="playMorseBtn">Play Morse</button>
+      <div id="output"></div>
+    </section>
+
+    <section id="reverse">
+      <h2>Morse ➝ Text</h2>
+      <textarea id="morseInput" placeholder="Enter Morse code here..."></textarea>
+      <button id="reverseBtn">Translate</button>
+      <div id="reverseOutput"></div>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; Morse Code Translator Repository</p>
+  </footer>
+
+  <script src="js/app.js"></script>
+</body>
+</html>
